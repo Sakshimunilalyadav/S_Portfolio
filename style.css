@@ -444,6 +444,10 @@ footer span a:hover{
     width: 50%;
     align-items: center;
 }
+.skills-content .max-width .c++::before{
+    width: 60%;
+    align-items: center;
+}
 .skills-content .max-width .mysql::before{
     width: 70%;
     align-items: center;
@@ -452,8 +456,3 @@ footer span a:hover{
     width: 75%;
     align-items: center;
 }
-.skills-content .max-width .c++::before{
-    width: 60%;
-    align-items: center;
-}
-
