@@ -444,7 +444,7 @@ footer span a:hover{
     width: 50%;
     align-items: center;
 }
-.skills-content .max-width .c++::before{
+.skills-content .max-width .cpp::before{
     width: 60%;
     align-items: center;
 }
