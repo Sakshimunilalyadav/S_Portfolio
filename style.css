@@ -428,10 +428,6 @@ footer span a:hover{
     top: 0;
     background: rgb(13, 15, 117);
 }
-.skills-content .max-width .cpp::before{
-    width: 65%;
-    align-items: center;
-}
 .skills-content .max-width .html::before{
     width: 90%;
     align-items: center;
@@ -439,6 +435,9 @@ footer span a:hover{
 .skills-content .max-width .css::before{
     width: 60%;
     align-items: center;
+}
+.skills-content .max-width .cpp::before{
+    width: 65%;
 }
 .skills-content .max-width .js::before{
     width: 80%;
