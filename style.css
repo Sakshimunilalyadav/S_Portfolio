@@ -97,7 +97,7 @@ nav{
 }
 .about .about-content .left p{
     border-left-width: 10px;
-    text-align: justify;
+    text-align: center;
 }
 .about .about-content .left a{
     display: inline-block;
