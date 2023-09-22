@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 .header{
     height: 100vh;
@@ -97,7 +97,7 @@ nav{
 }
 .about .about-content .left p{
     border-left-width: 10px;
-    text-align: center;
+    text-align: justify;
 }
 .about .about-content .left a{
     display: inline-block;
@@ -360,98 +360,121 @@ footer span a:hover{
 
 /* skills section styling */
 
-.skills-content {
-    border-color: #ffffff;
-    background: #ffffff;
-    border-left-width: 10px;
-    border-style: solid;
-    border-top-width: 50px;
-    text-align: center; 
-}
+.skills {
+    display: flex;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+
+ }
 .skills .skills-content .column{
-    width: calc(50% - 0px);
-    text-align: center; 
+    
+    /* width: calc(70% - 20px); */
+    width: 500px;
+
 }
 .skills .skills-content .left .text{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    text-align: center; 
 }
 .skills .skills-content .left p{
-    text-align: center;
+    text-align: justify;
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: #3e1b6d;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
+    /* padding: 8px 16px; */
+    /* margin-top: 20px; */
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #8941e9;
     transition: all 0.3s ease;
-    text-align: center; 
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: #8941e9;
     background: none;
-} 
-.skills .left .max-width .bars{
-    border-left-width: 50px;
-    border-right-width: 50px;
-    margin-bottom: 15px;
-    align-items: center;
 }
-.skills .skills-content .max-width .info{
+.skills .skills-content .right .bars{
+    margin-bottom: 20px;
+    margin-right: 0%;
+}
+.skills .skills-content .right .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .max-width span{
+.skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .max-width .line{
-    height: 5px;
+.skills .skills-content .right .line{
+    height: 10px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .max-width .line::before{
+.skills .skills-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(13, 15, 117);
+    background: #190e7a;
 }
-.skills-content .max-width .html::before{
-    width: 90%;
-    align-items: center;
-}
-.skills-content .max-width .css::before{
-    width: 60%;
-    align-items: center;
-}
-.skills-content .max-width .cpp::before{
-    width: 65%;
-}
-.skills-content .max-width .js::before{
-    width: 80%;
-    align-items: center;
-}
-.skills-content .max-width .php::before{
-    width: 50%;
-    align-items: center;
-}
-.skills-content .max-width .mysql::before{
+.skills-content .right .cpp::before{
     width: 70%;
+}
+.skills-content .right .python::before{
+    width: 75%;
+}
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 75%;
+}
+.skills-content .right .js::before{
+    width: 60%;
+}
+.skills-content .right .php::before{
+    width: 50%;
+}
+.skills-content .right .mysql::before{
+    width: 70%;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.skills-content .max-width .python::before{
-    width: 75%;
+.skill{
+    width: 70%;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px;
+    /* border: 2px solid red; */
+}
+.title{
+    margin: auto;
+}
+
+.skills-content{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(38, 47, 214); */
+    justify-content: space-evenly;
+    
 }
