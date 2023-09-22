@@ -62,7 +62,7 @@ nav{
     text-align: left;
 }
 .home-content .text-1{
-    font-size: 3px;
+    font-size: 30px;
 }
 .home-content .text-2{
     font-size: 80px;
@@ -96,7 +96,7 @@ nav{
     border-radius: 6px;
 }
 .about .about-content .left p{
-    font-size: 25px;
+    font-size: 26px;
     border-left-width: 10px;
     text-align: justify;
 }
