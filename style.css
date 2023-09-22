@@ -38,7 +38,7 @@ nav{
 .nav-links ul li a{
     color:#ececec;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 20px;
 }
 .nav-links ul li::after{
     content: '';
@@ -62,20 +62,20 @@ nav{
     text-align: left;
 }
 .home-content .text-1{
-    font-size: 27px;
+    font-size: 3px;
 }
 .home-content .text-2{
-    font-size: 75px;
+    font-size: 80px;
     font-weight: 600;
     margin-left: -3px;
 }
 .home-content .text-3{
-    font-size: 40px;
+    font-size: 45px;
     margin: 5px 0;
 }
 .home-content p{
     margin: 10px 0 40px;
-    font-size: 18px;
+    font-size: 30px;
     color: #fff;
 }
 .about-content {
@@ -96,6 +96,7 @@ nav{
     border-radius: 6px;
 }
 .about .about-content .left p{
+    font-size: 25px;
     border-left-width: 10px;
     text-align: justify;
 }
@@ -103,7 +104,7 @@ nav{
     display: inline-block;
     background: crimson;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
@@ -121,7 +122,7 @@ nav .fa{
 
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .nav-links ul li{
         display: block;
@@ -141,7 +142,7 @@ nav .fa{
         display: block;
         color: #eb0101;
         margin: 10px;
-        font-size: 22px;
+        font-size: 30px;
         cursor: pointer;
     }
     .nav-links ul{
@@ -154,6 +155,7 @@ nav .fa{
 /*----------Projects--------*/
 
 .Projects{
+    font-size: 20px;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -162,6 +164,8 @@ nav .fa{
 .Projects-article {
     border-color: #f1f3f7;
     background: #e1e2e4;
+    position: relative;
+    font-size: 20px;
     border-left-width: 2px;
     border-style: solid;
     border-top-width: 2px;
@@ -173,7 +177,7 @@ nav .fa{
     color: #000000;
     border: 1px solid #881f1f;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -211,7 +215,7 @@ nav .fa{
     width: 100%;
     font-weight: 500;
     color: rgb(19, 18, 18);
-    font-size: 26px;
+    font-size: 30px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -250,7 +254,7 @@ nav .fa{
     width: calc(50% - 30px);
 }
 .contact .contact-content .text{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -280,6 +284,7 @@ nav .fa{
 }
 .contact .contact-content1 .info .sub-title{
     color: #333;
+    font-size: 20px;
 }
 .contact .right form .fields{
     display: flex;
@@ -305,7 +310,7 @@ nav .fa{
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
-    font-size: 17px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
@@ -327,7 +332,7 @@ nav .fa{
   width: 160px!important;
   height: 45px;
   outline: none;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
@@ -361,6 +366,7 @@ footer span a:hover{
 /* skills section styling */
 
 .skills {
+    font-size: 20px;
     display: flex;
     width: 100%;
     /* border: 2px solid red; */
@@ -369,13 +375,11 @@ footer span a:hover{
 
  }
 .skills .skills-content .column{
-    
-    /* width: calc(70% - 20px); */
     width: 500px;
 
 }
 .skills .skills-content .left .text{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -386,7 +390,7 @@ footer span a:hover{
     display: inline-block;
     background: #3e1b6d;
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     /* padding: 8px 16px; */
     /* margin-top: 20px; */
@@ -410,7 +414,7 @@ footer span a:hover{
 }
 .skills .skills-content .right span{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
 }
 .skills .skills-content .right .line{
     height: 10px;
